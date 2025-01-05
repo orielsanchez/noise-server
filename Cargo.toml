@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+actix-web = "4.9.0"
+argon2 = "0.5.3"
+rusqlite = "0.32.1"
+serde = { version = "1.0.217", features = ["derive"] }
+tokio = { version = "1.42.0", features = ["full"] }
+tokio-tungstenite = "0.26.1"

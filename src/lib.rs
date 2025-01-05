@@ -5,6 +5,6 @@ mod storage;
 mod utils;
 mod websocket;
 
-pub fn start_server() {
+pub async fn start_server() {
     println!("Server started!");
 }
